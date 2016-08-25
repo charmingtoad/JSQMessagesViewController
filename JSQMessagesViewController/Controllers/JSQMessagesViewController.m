@@ -361,8 +361,14 @@ static void JSQInstallWorkaroundForSheetPresentationIssue26295020(void) {
     self.showTypingIndicator = NO;
 
     [self.collectionView.collectionViewLayout invalidateLayoutWithContext:[JSQMessagesCollectionViewFlowLayoutInvalidationContext context]];
-    [self.collectionView reloadData];
-
+    
+    NSInteger item = [self.collectionView numberOfItemsInSection:0];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForItem:item inSection:0];
+    
+    [self.collectionView performBatchUpdates:^{
+        [self.collectionView insertItemsAtIndexPaths:@[indexPath]];
+    } completion:nil];
+    
     if (self.automaticallyScrollsToMostRecentMessage && ![self jsq_isMenuVisible]) {
         [self scrollToBottomAnimated:animated];
     }
