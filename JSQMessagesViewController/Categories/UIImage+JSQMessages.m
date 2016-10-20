@@ -95,6 +95,71 @@
     return [UIImage jsq_bubbleImageFromBundleWithName:@"typing"];
 }
 
++ (UIImage *)jsq_defaultTypingIndicatorImage0
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-0"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage1
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-1"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage2
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-2"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage3
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-3"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage4
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-4"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage5
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-5"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage6
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-6"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage7
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-7"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage8
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-8"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage9
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-9"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage10
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-10"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage11
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-11"];
+}
+
++ (UIImage *)jsq_defaultTypingIndicatorImage12
+{
+    return [UIImage jsq_bubbleImageFromBundleWithName:@"typing-12"];
+}
+
 + (UIImage *)jsq_defaultPlayImage
 {
     return [UIImage jsq_bubbleImageFromBundleWithName:@"play"];

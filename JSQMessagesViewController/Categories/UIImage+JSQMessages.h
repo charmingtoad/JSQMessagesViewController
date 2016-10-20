@@ -71,6 +71,20 @@
  */
 + (UIImage *)jsq_defaultTypingIndicatorImage;
 
++ (UIImage *)jsq_defaultTypingIndicatorImage0;
++ (UIImage *)jsq_defaultTypingIndicatorImage1;
++ (UIImage *)jsq_defaultTypingIndicatorImage2;
++ (UIImage *)jsq_defaultTypingIndicatorImage3;
++ (UIImage *)jsq_defaultTypingIndicatorImage4;
++ (UIImage *)jsq_defaultTypingIndicatorImage5;
++ (UIImage *)jsq_defaultTypingIndicatorImage6;
++ (UIImage *)jsq_defaultTypingIndicatorImage7;
++ (UIImage *)jsq_defaultTypingIndicatorImage8;
++ (UIImage *)jsq_defaultTypingIndicatorImage9;
++ (UIImage *)jsq_defaultTypingIndicatorImage10;
++ (UIImage *)jsq_defaultTypingIndicatorImage11;
++ (UIImage *)jsq_defaultTypingIndicatorImage12;
+
 /**
  *  @return The default play icon image.
  */

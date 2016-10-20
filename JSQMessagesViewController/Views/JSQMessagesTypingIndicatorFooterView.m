@@ -109,7 +109,29 @@ const CGFloat kJSQMessagesTypingIndicatorFooterViewHeight = 46.0f;
     
     [self setNeedsUpdateConstraints];
     
-    self.typingIndicatorImageView.image = [[UIImage jsq_defaultTypingIndicatorImage] jsq_imageMaskedWithColor:ellipsisColor];
+    self.typingIndicatorImageView.animationImages = @[[UIImage jsq_defaultTypingIndicatorImage0],
+                                                      [UIImage jsq_defaultTypingIndicatorImage1],
+                                                      [UIImage jsq_defaultTypingIndicatorImage2],
+                                                      [UIImage jsq_defaultTypingIndicatorImage3],
+                                                      [UIImage jsq_defaultTypingIndicatorImage4],
+                                                      [UIImage jsq_defaultTypingIndicatorImage5],
+                                                      [UIImage jsq_defaultTypingIndicatorImage6],
+                                                      [UIImage jsq_defaultTypingIndicatorImage7],
+                                                      [UIImage jsq_defaultTypingIndicatorImage7],
+                                                      [UIImage jsq_defaultTypingIndicatorImage7],
+                                                      [UIImage jsq_defaultTypingIndicatorImage7],
+                                                      [UIImage jsq_defaultTypingIndicatorImage7],
+                                                      [UIImage jsq_defaultTypingIndicatorImage8],
+                                                      [UIImage jsq_defaultTypingIndicatorImage9],
+                                                      [UIImage jsq_defaultTypingIndicatorImage10],
+                                                      [UIImage jsq_defaultTypingIndicatorImage11],
+                                                      [UIImage jsq_defaultTypingIndicatorImage12],
+                                                      [UIImage jsq_defaultTypingIndicatorImage12],
+                                                      [UIImage jsq_defaultTypingIndicatorImage12],
+                                                      [UIImage jsq_defaultTypingIndicatorImage12],
+                                                      [UIImage jsq_defaultTypingIndicatorImage12],];
+    self.typingIndicatorImageView.animationDuration = 1.625;
+    [self.typingIndicatorImageView startAnimating];
 }
 
 @end
